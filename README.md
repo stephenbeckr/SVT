@@ -13,3 +13,5 @@ Maintained by Stephen Becker (email: firstname.lastname @ colorado.edu )
 
 # Compiling instructions
 Download the entire repository, then go to the `SVD_utilities` subdirectory and run `install_mex.m` from within MATLAB.  Test this with `test_MEX.m` and `test_PROPACK.m`.  Then go back to the parent directory and run `Test_SVT.m`
+
+Note: we have included precompiled binaries for several architectures; you may want to try these before running `insteall_mex.m` in case they work out-of-the-box for you
